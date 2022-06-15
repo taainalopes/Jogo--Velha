@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOGO DA VELHA</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<h1>Jogo da Velha VG</h1>
+<div id="buttons-containers">
+<button id="2-players">2 Jogadores</button>
+<button id="ai-players">Contra IA</button>
+</div>
+
+<div id="container"class="hide">
+    <div class="box" id="block-1"></div>
+    <div class="box" id="block-2"></div>
+    <div class="box" id="block-3"></div>
+    <div class="box" id="block-4"></div>
+    <div class="box" id="block-5"></div>
+    <div class="box" id="block-6"></div>
+    <div class="box" id="block-7"></div>
+    <div class="box" id="block-8"></div>
+    <div class="box" id="block-9"></div>
+
+<!--Span aqui-->
+
+    <div id="scoreboard-container" class="div-score">
+    <table id="border"> <h3>Score</h3>
+
+        <tr id="table" class="dados-X">
+            <th>X:</th>
+            <td id="scoreboard-X">0</td>
+        </tr>
+    
+        <tr id="table-0" class="dados-O">
+            <th>O:</th>
+            <td id="scoreaboard-O">0</td>
+        </tr>
+    </table>   
+    </div>
+   
+    <!--Span aqui-->
+</div>
+
+<div class="hide">
+    <div class="x">X</div>
+    <div class="o"></div>
+</div>
+
+<div id="message" class="hide">
+    <p> Vaaaaaleu você ganhou</p>
+    
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
